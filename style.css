@@ -1,0 +1,134 @@
+
+
+
+
+@media (max-width:500px){
+    body{
+        background-color: lightgreen;
+        font-family: Arial, sans-serif;
+        
+        display: flex;
+       
+        height: 100vh;
+        margin: 0;
+    }
+    #phone{
+        display: block;
+        position: fixed;
+        top: 120px;
+        left: 30px;
+        width: 150px;
+        height: 20px;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+        text-align: center;
+    }
+    #phone-sentence{ 
+        display: block;
+        background-color: white;
+        width: 300px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        margin-top: 100px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 12rem;
+        margin-left: 2.5rem;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    #normal, #tablets, #normal-sentence, #tablets-sentence{
+        display: none;
+    }
+}
+
+@media (min-width:501px) and (max-width:768px){
+    body{
+        background-color: lightgray;
+        
+            font-family: Arial, sans-serif;
+            
+            display: flex;
+           
+            height: 100vh;
+            margin: 0;
+        
+    }
+    #tablets {
+        display: block;
+        position: fixed;
+        top: 150px;
+        left: 50px;
+        width: 150px;
+        height: 20px;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+        text-align: center;
+    }
+    #tablets-sentence{
+        background-color: white;
+        width: 450px;
+        height: 200px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        display: flex;
+        margin-top: 220px;
+        margin-left: 50px;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    #normal, #phone, #normal-sentence, #phone-sentence{
+        display: none;
+    }
+}
+
+@media (min-width:769px) and (max-width:12000px){
+    body{
+        background-color: lightpink;
+        font-family: Arial, sans-serif;
+        
+        display: flex;
+       
+        height: 100vh;
+        margin: 0;
+    }
+    #normal {
+        display: block;
+        position: fixed;
+        top: 120px;
+        left: 250px;
+        width: 150px;
+        height: 20px;
+        background-color: white;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        font-weight: bold;
+        text-align: center;
+    }
+    #normal-sentence{
+        display: block;
+        background-color: white;
+        width: 800px;
+        height: 300px;
+        border-radius: 10px;
+        padding: 10px 20px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-top: 200px;
+        margin-left: 350px;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+    }
+    #tablets, #phone, #tablets-sentence, #phone-sentence{
+        display: none;
+    }
+}
