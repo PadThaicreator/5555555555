@@ -1,4 +1,12 @@
-
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8dcdc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
 
 
 
@@ -103,8 +111,8 @@
     #normal {
         display: block;
         position: fixed;
-        top: 120px;
-        left: 250px;
+        top: 8rem;
+        left: 10rem;
         width: 150px;
         height: 20px;
         background-color: white;
@@ -113,17 +121,18 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         font-weight: bold;
         text-align: center;
+        
     }
     #normal-sentence{
         display: block;
         background-color: white;
-        width: 800px;
+        width: 600px;
         height: 300px;
         border-radius: 10px;
         padding: 10px 20px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        margin-top: 200px;
-        margin-left: 350px;
+        margin-top: 2rem;
+        margin-left: 1rem;
         justify-content: center;
         align-items: center;
         position: fixed;
